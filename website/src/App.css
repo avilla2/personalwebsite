@@ -2,6 +2,10 @@
   width: auto;
 }
 
+.intro {
+  margin-top: 25px;
+}
+
 .portrait {
   width: 90%;
   border-radius: 50%;
@@ -12,6 +16,35 @@
     text-align: center;
 }
 
-.about {
-  margin: 2em 2em;
+.projects {
+  margin-top: 8px;
+}
+
+.cap {
+  text-decoration: none;
+  color: unset;
+}
+
+.cap:hover {
+  text-decoration: none;
+  color: unset;
+  box-shadow: 10px 5px 5px black;
+}
+
+.cap h5:hover {
+  text-decoration: underline;
+}
+
+.links {
+  margin-right: 10px;
+}
+
+.footerContainer {
+  background-color: #e9ecef;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
 }

@@ -4,7 +4,7 @@ import portrait from "../SeniorPicture.jpg"
 
 const Intro = () => {
     return (
-        <div>
+        <div className="intro">
             <Jumbotron>
                 <Container fluid>
                     <Row>
@@ -18,6 +18,7 @@ const Intro = () => {
                                 <p className="lead">Student at the University of Oregon </p>
                                 <p className="lead"> B.S. Computer Science and Minor in Entreprenuership </p>
                                 <p className="lead"> Class of 2022.</p>
+                                <p className="lead">Inquiries: <a href="mailto:a.villa12@outlook.com">a.villa12@outlook.com</a></p>
                             </div>
                         </Col>
                     </Row>

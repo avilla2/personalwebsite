@@ -15,19 +15,19 @@ const MyNav = (props) => {
 
   return (
     <div>
-      <Navbar dark color="dark" expand="md">
+      <Navbar fixed="top" dark color="dark" expand="md">
         <NavbarBrand href="/">Alexandro Villa</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="">About Me</NavLink>
+              <NavLink href="#aboutTitle">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Experience</NavLink>
+              <NavLink href="#experienceTitle">Experience</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Links</NavLink>
+              <NavLink href="#linksTitle">Links</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
