@@ -1,0 +1,17 @@
+.App {
+  width: auto;
+}
+
+.portrait {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.introText {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about {
+  margin: 2em 2em;
+}
