@@ -1,15 +1,14 @@
 import React from 'react';
 import { Jumbotron, Container, Col, Row } from 'reactstrap';
-import portrait from "../SeniorPicture.jpg"
-
+import portrait2 from "../portrait.jpeg";
 const Intro = () => {
     return (
         <div className="intro">
             <Jumbotron>
-                <Container fluid>
+                <Container fluid className="intro-container">
                     <Row>
                         <Col xs="12" md="4">
-                            <img className="portrait" src={portrait} alt="portrait" />
+                            <img className="portrait" src={portrait2} alt="portrait" />
                         </Col>
                         <Col xs="12" md="8">
                             <div className="introText">

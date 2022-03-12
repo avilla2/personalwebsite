@@ -6,6 +6,10 @@
   margin-top: 25px;
 }
 
+.intro-container {
+  margin-top: 80px;
+}
+
 .portrait {
   width: 90%;
   border-radius: 50%;
@@ -19,7 +23,9 @@
 .projects {
   margin-top: 8px;
 }
-
+.jobcard {
+  margin-top: 20px;
+}
 .cap {
   text-decoration: none;
   color: unset;
