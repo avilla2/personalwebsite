@@ -4,6 +4,7 @@ import {
     CardTitle, CardSubtitle, 
     Container, Row, Col, List
   } from 'reactstrap';
+  import { Link } from "react-router-dom";
 
 const Experience = () => {
     return (
@@ -69,7 +70,7 @@ const Experience = () => {
                         <p className="lead">Projects</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="projects-container">
                     <Col xs="12">
                         <a className="cap" href="https://www.juanselcaporal.com/">
                             <Card>
@@ -124,6 +125,24 @@ const Experience = () => {
                                 </CardBody>
                             </Card>
                         </a>
+                    </Col>
+                    <Col xs="12" className='jobcard'>
+                        <Link className="cap" to="/startitup">
+                            <Card>
+                                <CardBody>
+                                    <CardTitle tag="h5">Start it Up! Programming for Entreprenuers</CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">Weeklong React programming course for Academia Latina students</CardSubtitle>
+                                    <CardText>
+                                        <List type="unstyled">
+                                            <li>Description Coming Soon</li>
+                                            <li>Description Coming Soon</li>
+                                            <li>Description Coming Soon</li>
+                                            <li>Description Coming Soon</li>
+                                        </List>
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </Link>
                     </Col>
                 </Row>         
             </Container>

@@ -14,7 +14,7 @@ const MyNav = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className='navbar'>
       <Navbar fixed="top" dark color="dark" expand="md">
         <NavbarBrand href="/">Alexandro Villa</NavbarBrand>
         <NavbarToggler onClick={toggle} />

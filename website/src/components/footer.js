@@ -8,7 +8,7 @@ const Footer = () => {
             <Row>
                 <Col>
                     <div className="footer">
-                        <p className="lead"> © 2021 Alexandro Villa</p>
+                        <p className="lead"> © 2022 Alexandro Villa</p>
                     </div>
                 </Col>
             </Row>
